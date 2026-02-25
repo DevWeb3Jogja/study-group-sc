@@ -4,4 +4,8 @@ out = "out"
 libs = ["lib"]
 remappings = []
 
+[rpc_endpoints]
+base_testnet = "${RPC_URL_BASE_TESTNET}"
+kairos_testnet = "${RPC_URL_KAIROS_TESTNET}"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
